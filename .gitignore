@@ -16,5 +16,8 @@
 
 .idea/
 .DS_Store
+.env
 
 password.txt
+build/
+logs/

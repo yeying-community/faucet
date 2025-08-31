@@ -7,9 +7,9 @@
   let input = null;
   let faucetInfo = {
     account: '0x0000000000000000000000000000000000000000',
-    network: 'testnet',
+    network: 'yeying',
     payout: 1,
-    symbol: 'ETH',
+    symbol: 'YYT',
     hcaptcha_sitekey: '',
   };
 
@@ -132,17 +132,6 @@
           </div>
           <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
-              <span class="navbar-item">
-                <a
-                  class="button is-white is-outlined"
-                  href="https://github.com/chainflag/eth-faucet"
-                >
-                  <span class="icon">
-                    <i class="fa fa-github" />
-                  </span>
-                  <span>View Source</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -153,11 +142,10 @@
       <div class="container has-text-centered">
         <div class="column is-6 is-offset-3">
           <h1 class="title">
-            Receive {faucetInfo.payout}
-            {faucetInfo.symbol} per request
+            YEYING NETWORK FAUCET
           </h1>
           <h2 class="subtitle">
-            Serving from {faucetInfo.account}
+            Fast and reliable. 0.1 YeYeing YYT / 24 hrs.
           </h2>
           <div id="hcaptcha" data-size="invisible"></div>
           <div class="box">
